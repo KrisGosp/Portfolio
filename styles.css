@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+}
+.site-title a {
+    font-weight: 500;
+    font-size: 2rem;
+    color: #482728;
+}
+.cyan-wrapper {
+    background: #008b8b;
+    position: sticky;
+    top: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.site-title {
+    font-size: 2.5rem;
+    margin: .5rem;
+}
+.navbar-links {
+    display: flex;
+}
+.navbar-links ul {
+    display: flex;
+}
+.navbar-links li {
+    list-style: none;
+}
+.navbar-links li a {
+    text-decoration: none;
+    color: #482728;
+    padding: 0.8rem;
+    display: block;
+    font-size: 21px;
+    font-weight: bolder;
+
+}
+.navbar-links a {
+    display: block;
+    padding-top: 0.88rem;
+    padding-right: 0.5rem;
+}
+.navbar-links a img {
+    width: 25px;
+    height: 25px;
+}
+.navbar-links li a:hover {
+    background: cyan;
+}
+.site-title a {
+    text-decoration: none;
+}
+h2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+/* Home Page Part */
+.home {
+    display: flex;
+    justify-content: space-between;
+    max-width: 65%;
+    margin: 130px auto;
+    font-size: 2rem;
+}
+.short-intro {
+    width: 50%;
+    margin: auto 0;
+}
+.short-intro h2 {
+    padding-bottom: 20px;
+    color: #F78764;
+    font-size: 3rem;
+}
+
+/* About Page */
+.about-me {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.salmon-wrapper {
+    padding: 23px 0;
+    background: #F78764;
+}
+.general-information p {
+    max-width: 80%;
+    margin: 70px auto;
+    text-align: center;
+}
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card img {
+    width: 400px;
+    height: 290px;
+    border: 5px solid black;
+}
+.goal h2 {
+    margin: 80px 0 20px 0;
+}
+.goal p {
+    max-width: 80%;
+    margin: 70px auto;
+    text-align: center;
+}
+
+/* Projects Page */
+.brown-sugar-wrapper {
+    background: #B86F52;
+}
+.projects {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 1px 0;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 37px 0;
+}
+.box {
+    width: 300px;
+    height: 150px;
+    background: blue;
+    position: relative;
+    overflow: hidden;
+
+}
+.box img {
+    display: block;
+    width: 300px;
+    height: 150px;
+
+}
+.box .content {
+    position: absolute;
+    inset: 0;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+.box img, .box .content {
+    transition: 200ms ease-in-out;
+}
+.box .content {
+    opacity: 0;
+}
+.box:hover .content {
+    opacity: 1;
+}
+.box .content a {
+    text-decoration: none;
+}

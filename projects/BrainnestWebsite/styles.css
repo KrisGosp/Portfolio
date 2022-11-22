@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+body {
+    font-family: "Roboto";
+}
+/* wrappers for colors */
+.wrapper-blue {
+    background-color: #1F2937;
+}
+
+/* navbar styles */
+.menu a {
+    text-decoration: none;
+}
+.menu li {
+    list-style: none;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px 0 100px 0;
+}
+.nav-links a {
+    color: white;
+}
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 14px;
+}
+
+/* awesome part styles */
+.awesome {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    
+}
+.awesome-left-side h1 {
+    font-size: 48px;
+    font-weight: extra bold;
+    color: #f9faf8;
+
+}
+.awesome-left-side p {
+    padding: 4px 0;
+    font-size: 16px;
+    color: #f9faf8;   
+    font-weight: ligher; 
+}
+.awesome-left-side button {
+    font-size: 18px;
+    background-color: #3882f6;    
+    color: white;
+    margin: 10px 0;
+    border-radius: 8px;
+    padding: 5px 20px;
+    border: none;
+}
+
+/* squares part */
+.wrapper-white {
+    background-color: white;
+    text-align: center;
+}
+.wrapper-white h3 {
+    padding: 50px 0;
+    font-weight: bold;
+    font-size: 28px;
+    margin-right: 40px;
+}
+.row {
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+    padding-left: 30px;
+}
+.box {
+    width: 180px;
+    height: 180px;
+    border: 4px solid rgb(23, 81, 227);
+    border-radius: 13px;
+    background: transparent;
+}
+.column {
+    margin-right: 45px;
+    margin-bottom: 50px;
+}
+.column p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+/* quote part */
+.wrapper-gray {
+    background-color: #e5e7eb;
+}
+.quote {
+    max-width: 800px;
+    margin: auto;
+    padding: 120px 0;
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+    text-align: left;
+}
+.thor {
+    text-align: right;
+}
+
+/* action part */
+.action {
+    max-width: 960px;
+    margin: auto;
+}
+.action-box {
+    margin: 80px 0;
+    width: 960px;
+    height: 140px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+}
+.action-text {
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 80px;
+    font-size: 17px;
+}
+.action button {
+    margin-left: 180px;
+    margin-top: 55px;
+    height: 30px;
+    padding: 5px 27px;
+    text-align: center;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+/* copyright */
+.copyright {
+    height: 60px;
+    text-align: center;
+    padding-top: 23px;
+    color: white;
+}
