@@ -59,7 +59,9 @@ body {
     height: 25px;
 }
 .navbar-links li a:hover {
-    background: cyan;
+    /* background: cyan; */
+    /* transform: skew(-10deg); */
+    color: #88393b;
 }
 .site-title a {
     text-decoration: none;
@@ -85,9 +87,12 @@ h2 {
     margin: auto 0;
 }
 .short-intro h2 {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     color: #F78764;
     font-size: 3rem;
+}
+.short-intro p {
+    font-size: 1.7rem;
 }
 
 /* About Page */
@@ -104,23 +109,34 @@ h2 {
     max-width: 80%;
     margin: 70px auto;
     text-align: center;
+    font-size: 1.3rem;
 }
 .card-container {
-    display: flex;
     justify-content: space-evenly;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.card {
+    margin-bottom: 40px;
 }
 .card img {
-    width: 400px;
-    height: 290px;
+    width: 600px;
+    height: 435px;
     border: 5px solid black;
+    margin-bottom: 12px;
+}
+.card h6 {
+    text-align: center;
+    font-size: 1rem;
 }
 .goal h2 {
-    margin: 80px 0 20px 0;
+    margin: 0 0 20px 0;
 }
 .goal p {
     max-width: 80%;
     margin: 70px auto;
     text-align: center;
+    font-size: 1.3rem;
 }
 
 /* Projects Page */
