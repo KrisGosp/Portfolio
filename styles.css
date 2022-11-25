@@ -97,7 +97,7 @@ h2 {
     font-size: 1.7rem;
 }
 .portrait img {
-    width: 400px;
+    width: 450px;
     height: 600px;
 }
 
@@ -171,7 +171,6 @@ h2 {
     display: block;
     width: 300px;
     height: 150px;
-
 }
 .box .content {
     position: absolute;
