@@ -8,6 +8,7 @@ const generateTemplate = task => {
         <li class="list-group-item d-flex justify-content-between align-items-center">
             <span>${task}</span>
             <i class="fa-solid fa-circle-check delete"></i>
+            <span id="tooltip-text">Mark as completed</span>
         </li>
     `;
 
