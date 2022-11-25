@@ -5,6 +5,10 @@
     margin: 0;
     padding: 0;
 }
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: black;
+}
 body {
     font-family: 'Roboto Mono', monospace;
     font-weight: 300;
@@ -59,9 +63,7 @@ body {
     height: 25px;
 }
 .navbar-links li a:hover {
-    /* background: cyan; */
-    /* transform: skew(-10deg); */
-    color: #88393b;
+    color: #F78764;
 }
 .site-title a {
     text-decoration: none;
@@ -79,7 +81,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     max-width: 65%;
-    margin: 130px auto;
+    margin: 150px auto;
     font-size: 2rem;
 }
 .short-intro {
@@ -93,6 +95,10 @@ h2 {
 }
 .short-intro p {
     font-size: 1.7rem;
+}
+.portrait img {
+    width: 400px;
+    height: 600px;
 }
 
 /* About Page */

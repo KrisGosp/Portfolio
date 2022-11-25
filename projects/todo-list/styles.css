@@ -1,0 +1,55 @@
+body{
+    background: rgb(13, 31, 34);
+}
+.container{
+    max-width: 600px;
+}
+input[type=text],
+input[type=text]:focus{
+    color: rgb(146, 152, 61);
+    border: none;
+    background: rgb(56, 93, 57);
+}
+.todos li{
+    background: rgb(107, 144, 92);
+}
+.delete{
+    cursor: pointer;
+}
+.add{
+    color: white;
+}
+.filtered{
+    display: none !important;
+}
+
+/* Tooltip */
+ul li i {
+    position: relative;
+    cursor: pointer;
+}
+#tooltip-text {
+    position: absolute;
+    left: 95.8%;
+    top: 0;
+    padding: 0 5px;
+    transform: translateX(-50%);
+    background: white;
+    color: black;
+    white-space: nowrap;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+#tooltip-text::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+}
+ul li:hover #tooltip-text {
+    top: -80%;
+    visibility: visible;
+    opacity: 1;
+}
